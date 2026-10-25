@@ -1,0 +1,27 @@
+# ThumbnailIQ dependencies
+# Install with: pip install -r requirements.txt
+
+# Core web app framework
+streamlit
+
+# Image loading and manipulation
+Pillow
+
+# Numerical computations
+numpy
+
+# Computer vision — use opencv-contrib-python for the saliency module (cv2.saliency)
+# NOTE: do NOT install both opencv-python and opencv-contrib-python in the same environment
+opencv-contrib-python
+
+# Data table display in the comparison view
+pandas
+
+# Interactive charts for the metric comparison bar chart
+plotly
+
+# OCR for text detection (choose ONE of the two options below):
+# Option A (recommended — better accuracy, no Tesseract binary needed):
+easyocr
+# Option B (lighter, but requires Tesseract installed separately):
+# pytesseract
